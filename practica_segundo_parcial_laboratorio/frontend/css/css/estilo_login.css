@@ -1,0 +1,93 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0 auto;
+  color:#f0f0f0;
+  background:#495ddd;
+  font-family:'Open Sans',sans-serif;
+}
+
+.CajaInicio {
+  width:750px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+.CajaInicio h1,h4{
+  background:rgb(65, 3, 73);
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+form { 
+  background:#f0f0f0a9;
+  padding:6% 4% 4% 6%;
+  margin: 10px;
+}
+
+input[type="text"]{
+  width:95%;
+  background:#fff;
+  margin-bottom:4%;
+  margin-left:4%;
+  margin-right:5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  padding:4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:150%;
+  color:#555;
+}
+
+.MiBotonUTN {
+  display:block;
+  text-transform: capitalize;
+  border:hidden;
+  width:100%;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.CajaInicio table{
+  margin:0 auto;
+  margin-top:0px;
+  margin-bottom:2%;
+  width:100%;	
+  background:#e91bdfa1;
+  color: rgb(14, 26, 112);
+
+}
+.CajaInicio td{
+	margin:auto;
+	margin-left:0%;
+	text-align:right;
+}
+
+.CajaInicio table tr td{
+text-align:center;
+vertical-align:middle;
+}
+
+.redondeado
+{
+  border-radius: 25px;
+  padding: 25px; 
+  overflow:auto;
+  margin-top:10px;
+  margin-left:20px;
+  width: 500px;
+  height: 430px;  
+}
